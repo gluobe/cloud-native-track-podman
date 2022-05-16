@@ -2,13 +2,13 @@
 
 A couple of requirements before we can start with the actual labs.
 
-## Task 0: Docker Hub account
+## Task 1: Docker Hub account
 
 If you do not yet have a Docker Hub account, please sign up for a free one at:
 
 https://hub.docker.com/signup
 
-## Task 1: Enable Podman
+## Task 2: Enable Podman
 
 ### Step 0: Install Podman
 
@@ -46,7 +46,7 @@ Built:        Thu Mar  3 15:56:56 2022
 OS/Arch:      linux/amd64
 ```
 
-## Task 2: Login to Docker Hub
+## Task 3: Login to Docker Hub
 
 Next we will login to the Docker Hub with `podman`, this allows us to push/pull private container images:
 
