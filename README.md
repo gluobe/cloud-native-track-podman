@@ -9,6 +9,7 @@ In this hands-on workshop you will learn the basics of Podman.
 * [Lab 02 - Managing container images](lab-02)
 * [Lab 03 - Creating Dockerfiles](lab-03)
 * [Lab 04 - Additional Podman operations](lab-04)
+* [Lab XX - Remove Podman](lab-XX)
 
 ## People 
 
