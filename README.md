@@ -1,4 +1,4 @@
-# Docker Workshop
+# Podman Workshop
 
 In this hands-on workshop you will learn the basics of Podman.
 

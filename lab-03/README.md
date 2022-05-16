@@ -1,6 +1,6 @@
-# Lab 03 - Additional Docker operations
+# Lab 03 - Additional Podman operations
 
-In this lab we will have a look at some additional Docker operations commands.
+In this lab we will have a look at some additional Podman operations commands.
 
 ## Task 1: Look at what containers are (and were) running
 
@@ -360,7 +360,7 @@ we have the `podman rm` and `podman image rm` commands.
 
 One important thing to note is that before you can delete an image, you will
 first need to delete all the running/terminated containers that are using that
-image as Docker will prevent you from deleting images that are still in use, for
+image as Podman will prevent you from deleting images that are still in use, for
 example `podman image rm gluobe/draw-triangle:v1` will result in the following error:
 
 ```
