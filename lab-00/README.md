@@ -8,30 +8,21 @@ If you do not yet have a Docker Hub account, please sign up for a free one at:
 
 https://hub.docker.com/signup
 
-## Task 1: Install Podman
+## Task 1: Enable Podman
 
-### Step 0: Install `brew`
+### Step 0: Install Podman
 
-If you have not yet installed `brew`, install it :
+If you already followed all steps in the prerequisites repo you can skip this step and move to `Step 1`.
 
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+If you did not, follow all steps in the [prerequisites repo](https://github.com/gluobe/cloud-native-track-prerequisites/tree/main/prereq-01-podman)
 
-### Step 1: Install Podman
-
-Install `podman` using the command below:
+### Step 1: Start Podman VM
 
 ```
-brew install podman
-```
-
-Start the Podman-managed VM:
-
-```
-podman machine init
 podman machine start
 ```
+
+### Step 2: Test Podman
 
 Ensure that everything is working:
 
