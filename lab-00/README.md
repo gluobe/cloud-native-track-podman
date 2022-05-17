@@ -16,13 +16,21 @@ If you already followed all steps in the prerequisites repo you can skip this st
 
 If you did not, follow all steps in the [prerequisites repo](https://github.com/gluobe/cloud-native-track-prerequisites/tree/main/prereq-01-podman)
 
-### Step 1: Start Podman VM
+### Step 1: Run rootfull Podman
+
+```
+podman machine set --rootful
+```
+
+> NOTE: if you get an error similar to `Error: cannot change settings while the vm is running, run 'podman machine stop' first`, issue the command mentioned in the message (`podman machine stop`) and reissue the above command
+
+### Step 2: Start Podman VM
 
 ```
 podman machine start
 ```
 
-### Step 2: Test Podman
+### Step 3: Test Podman
 
 Ensure that everything is working:
 
